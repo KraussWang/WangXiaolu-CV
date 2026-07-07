@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="王小璐的个人简历网站，求职方向为 AI 产品经理和 AI 内容运营。">
+  <title>王小璐 | AI 产品经理与内容运营</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="主导航">
+      <a class="brand" href="#home" aria-label="返回首页">王小璐</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell" id="home">
+      <div class="hero-copy">
+        <p class="availability">AI 产品经理 / AI 内容运营</p>
+        <h1>Hello, I'm<br>王小璐</h1>
+        <p class="lead">微信公众号运营、AIGC 内容生产与 AI Agent 工作流搭建实践者。</p>
+        <p class="sublead">我关注真实内容生产场景，擅长把重复流程抽象成可落地的 AI 工具，并用数据反馈持续优化。</p>
+        <div class="actions">
+          <a class="button primary" href="Resume.md">下载简历</a>
+          <a class="button secondary" href="#projects">查看项目</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="个人定位视觉卡片">
+        <div class="portrait-card">
+          <div class="portrait-ring">
+            <img class="portrait-photo" src="assets/personal-photo.jpg" alt="王小璐个人照片">
+          </div>
+          <div class="status-card">
+            <span></span>
+            <strong>Open to AI PM Roles</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell about" id="about">
+      <div class="section-heading">
+        <h2>About Me</h2>
+        <p>从微信公众号运营出发，拆解内容生产、发布提效和数据复盘的完整产品闭环。</p>
+      </div>
+      <div class="about-card">
+        <p>我叫王小璐，现为上海科技大学（张江校区）的研二学生，现求职方向为AI 产品经理或内容运营。</p>
+        <p>我具备科研内容运营、AIGC 内容生产、AI Agent 工作流搭建和数据看板设计经验。独立运营科研科普公众号「KK读电镜文献」，5 个月内累计发布推文 70+ 篇，实现粉丝增长 1300+，总阅读量突破 5w+，最高单篇阅读 5,811。</p>
+        <p>基于真实内容生产场景，使用 Codex、Claude Code 等工具搭建微信公众号半自动化发布工作流，将单篇文章非创作流程从 2-3 小时压缩至约 30 分钟，并进一步搭建文章级数据分析看板，形成「内容生产 - 发布提效 - 数据反馈」的产品闭环。</p>
+        <p>我相信，在 AI 时代，重要的不只是代码能力，更是发现真实需求、抽象工作流并生成可用产品的能力。</p>
+      </div>
+    </section>
+
+    <section class="section shell" id="projects">
+      <div class="section-heading">
+        <h2>Featured Projects</h2>
+        <p>三个项目共同展示了我从内容运营、AI 工作流设计到数据复盘的实践路径。</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="assets/wechat-cover.jpg" alt="KK读电镜文献公众号运营视觉图">
+          <div class="project-body">
+            <h3>「KK读电镜文献」公众号运营</h3>
+            <p>面向低维材料及电镜领域的科研人员，分享和科普相关文献和知识。负责账号定位、选题策划、内容结构、图文排版和 AIGC 插图生产，5 个月发布 70+ 篇，粉丝增长 1300+，总阅读量突破 5w+。</p>
+            <div class="tags">
+              <span>微信公众号运营</span>
+              <span>AIGC 内容</span>
+              <span>内容策划</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/workflow-cover.jpg" alt="微信公众号半自动化工作流视觉图">
+          <div class="project-body">
+            <h3>微信公众号半自动化工作流</h3>
+            <p>基于公众号运营中的重复流程，使用 Codex、Claude Code 抽象 Skill，搭建从文献输入到文章生成、格式转换和草稿上传的半自动化链路，将单篇文章非创作流程从 2-3 小时压缩至约 30 分钟。</p>
+            <div class="tags">
+              <span>AI Agent</span>
+              <span>Prompt Engineering</span>
+            </div>
+            <a class="text-link" href="https://github.com/KraussWang/paper-reading-wechat" target="_blank" rel="noopener">查看 Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/dashboard-cover.png" alt="公众号数据分析看板截图">
+          <div class="project-body">
+            <h3>公众号数据分析看板</h3>
+            <p>搭建交互式 HTML 数据看板，聚合阅读量、分享率、阅读后关注率等核心指标，构建内容价值评估体系。数据驱动结论：科普类内容涨粉效率提升 4-5%，综述类内容传播广度高出 6-10%，据此输出选题优化策略与系列化路线图。</p>
+            <div class="tags">
+              <span>数据分析</span>
+              <span>AI Agent</span>
+            </div>
+            <a class="text-link" href="assets/article-dashboard-copy.html">查看数据看板</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="education">
+      <div class="section-heading">
+        <h2>Education</h2>
+        <p>具有半导体、材料科学、电子信息等专业知识背景。</p>
+      </div>
+      <div class="education-list">
+        <article class="education-card">
+          <div>
+            <h3>上海科技大学</h3>
+            <p>材料科学与工程，硕士</p>
+          </div>
+          <div class="education-meta">
+            <span>2024.09 至今</span>
+            <span>GPA 3.56/4，专业前 20%</span>
+          </div>
+        </article>
+        <article class="education-card">
+          <div>
+            <h3>哈尔滨工业大学</h3>
+            <p>结构工程（主修）+ 电子信息工程（辅修），本科</p>
+          </div>
+          <div class="education-meta">
+            <span>2019.09 - 2024.06</span>
+            <span>哈尔滨工业大学优秀学生</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="skills">
+      <div class="section-heading">
+        <h2>Skills</h2>
+        <p>围绕 AI 内容产品、工作流编排、数据原型和微信公众号生态形成的工具栈。</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>AI 模型与编排</h3>
+          <p>Codex、Claude Code、Gemini（含 Nano Banana）、Prompt Engineering、AI Agent 工作流设计</p>
+        </article>
+        <article class="skill-card">
+          <h3>数据与原型</h3>
+          <p>Python、HTML / CSS / JavaScript、数据看板（原生 JS）、Markdown</p>
+        </article>
+        <article class="skill-card">
+          <h3>设计工具</h3>
+          <p>Figma、秀米</p>
+        </article>
+        <article class="skill-card">
+          <h3>平台生态</h3>
+          <p>微信公众号开放平台（API调用）</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell contact" id="contact">
+      <div class="section-heading">
+        <h2>Contact</h2>
+        <p>期待 AI 产品经理、AI 内容运营相关机会。</p>
+      </div>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:244102887@qq.com">
+          <span>Email</span>
+          <strong>244102887@qq.com</strong>
+        </a>
+        <a class="contact-card" href="tel:15315170295">
+          <span>Phone</span>
+          <strong>15315170295</strong>
+        </a>
+        <div class="contact-card">
+          <span>Location</span>
+          <strong>上海 · 张江</strong>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell">
+      <span>王小璐</span>
+      <span>AI 产品经理 / AI 内容运营</span>
+    </div>
+  </footer>
+</body>
+</html>
